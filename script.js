@@ -1,3 +1,5 @@
+var value = 0;
+
 const updataAndFetch = () => {
   fetch("./data.json")
     .then((response) => response.json())
@@ -6,7 +8,6 @@ const updataAndFetch = () => {
       time.innerText = Date();
       const tableBody = document.getElementById("stockData");
       tableBody.innerHTML = "";
-
       data.forEach((option) => {
         const row = document.createElement("tr");
 
@@ -19,7 +20,8 @@ const updataAndFetch = () => {
         row.appendChild(priceCell);
 
         const tldCell = document.createElement("td");
-        tldCell.textContent = option.tld;
+        value++;
+        tldCell.textContent = option.tld + value;
         row.appendChild(tldCell);
 
         const otherCell = document.createElement("td");
