@@ -1,0 +1,26 @@
+[
+  {
+    "option": "1",
+    "price": "10.00",
+    "tld": "121",
+    "other": "Info 1"
+  },
+  {
+    "option": "2",
+    "price": "15.00",
+    "tld": "100",
+    "other": "Info 2"
+  },
+  {
+    "option": "3",
+    "price": "20.00",
+    "tld": "20",
+    "other": "Info 3"
+  },
+  {
+    "option": "4",
+    "price": "25.00",
+    "tld": "12",
+    "other": "Info 4"
+  }
+]
